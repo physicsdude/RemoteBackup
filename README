@@ -1,0 +1,36 @@
+RemoteBackup version 0.01
+
+For testing, place the id_rsa file in your ~/.ssh/ direcotry.
+
+See the configuration file ./config/example.xml for how to
+set up machines, directories, and databases to be backed up.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+Alternatively, to install with Module::Build, you can use the
+following commands:
+
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
+
+
+DEPENDENCIES
+
+Moose
+XML::Simple
+
+COPYRIGHT AND LICENSE
+
+Copyright (C) 2010, Bryan Gmyrek
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.

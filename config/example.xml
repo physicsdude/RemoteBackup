@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<machines>
+	<machine>
+		<local_directory>./t/testdata/</local_directory>
+		<host>example.com</host>
+		<user>remotebk</user>
+		<directories>
+			<directory>./test</directory>
+			<directory>./test2</directory>
+		</directories>
+		<databases>
+			<database>
+				<user>dbuser</user>
+				<pass>dbpass</pass>
+				<name>dbname</name>
+			</database>
+			<database>
+				<user>dbuser2</user>
+				<pass>dbpass2</pass>
+				<name>dbname2</name>
+			</database>
+		</databases>
+	</machine>
+	<machine>
+		<local_directory>./t/testdata/</local_directory>
+		<host>example.com</host>
+		<user>remotebk</user>
+		<directories>
+			<directory>./.ssh</directory>
+		</directories>
+	</machine>
+</machines>

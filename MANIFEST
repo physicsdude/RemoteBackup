@@ -1,0 +1,11 @@
+MANIFEST
+README
+LICENSE
+Changes
+Makefile.PL
+lib/RemoteBackup.pm
+lib/RemoteBackup/Database.pm
+lib/RemoteBackup/Machine.pm
+lib/RemoteBackup/Configuration.pm
+t/00.load.t
+t/methods.t
