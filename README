@@ -1,4 +1,6 @@
-RemoteBackup version 0.01
+RemoteBackup - Backup selected information from remote Linux machine.
+
+Version 0.01
 
 For testing, place the id_rsa file in your ~/.ssh/ direcotry.
 
